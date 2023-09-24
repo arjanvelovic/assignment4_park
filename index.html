@@ -8,12 +8,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <!--for icons-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
-<!-- <Link rel="stylesheet" href="styles.css"> -->
+<!-- Uncomment to show borders -->
+<!-- <style>*{border: 1px solid red;}</style> -->
 
 <title>Yellow Stone</title>
 </head>
@@ -44,7 +44,7 @@
                         <a href="#alerts" class="nav-link text-white">Alerts</a>
                     </li>
                     <li>
-                        <a href="#fees" class="nav-link text-white">Fees</a>
+                        <a href="#camping" class="nav-link text-white">Camping</a>
                     </li>
                     <li>
                         <a href="#gallery" class="nav-link text-white">Gallery</a>
@@ -54,82 +54,80 @@
                     </li>
                 </ul>
             </div>
-            
         </div>
     </nav>
 
     <!-- Header Image -->
-    <section id="home">
+    <section id="about">
         <div class="img-fluid px-0 pt-5">
                 <img class = "img-fluid" src = "static/FirstImage.jpg" alt="background image">
         </div>
     </section>
 
     <!-- Info Section -->
-    <section id="info">
+    <section>
         <div class="container-fluid pt-4 px-4">
-            <header class="display-3 text-center text-md-start">The World's First National Park</header>
+            <header class="display-4 text-center text-md-start">The World's First National Park</header>
             <p style="text-align: justify;" class="h5 fw-normal ps-2">
                 On March 1, 1872, Yellowstone became the first national park for all to enjoy the unique hydrothermal and geologic features. Within Yellowstone's 2.2 million acres, visitors have unparalleled opportunities to observe wildlife in an intact ecosystem, explore geothermal areas that contain about half the world's active geysers, and view geologic wonders like the Grand Canyon of the Yellowstone River.
             </p>
-            
+            <p style="text-align: justify;" class="h5 fw-normal ps-2">
+                Yellowstone National Park is the flagship of the National Park Service and a favorite to millions of visitors each year. The park is a major destination for all members of the family. By driving the grand loop road, visitors can view the park from the comfort of their vehicle and also take a rest at one of the many roadside picnic areas. For the active visitor, the park has thousands of miles of trails from dayhikes to backcountry explorations.
+            </p>
         </div>
     </section>
 
     <!-- style="text-align: justify;" -->
     <section id="alerts" >
-        <div class="container-fluid">
-            <div class="row text-center">
-                <header class="display-3 text-decoration-underline">Alerts!</header>
-            </div>
-            <div class="row container-fluid">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="row pb-1 my-1 border-bottom border-2">
+        <div class="container-fluid pt-4">
+            <header class="display-4 text-center">Alerts</header>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 border-bottom border-2">
+                    <div class="row pb-1 my-1">
                         <div class="col-5 col-md-12 d-flex align-items-center">
                             <img src="static/HorizontalWildfire.jpg" alt="" class="img-fluid d-none d-sm-block">
                             <img src="static/VerticalWildfire.jpg" alt="" class="img-fluid d-sm-none">
                         </div>
                         <div class="col py-0 ps-0 ps-md-3"> Current fire danger: <span class="text-danger">MODERATE</span>
-                            <ul class="ps-3">
+                            <ul class="ps-3" style="text-align: justify;">
                                 <li>Campfires are only permitted within the fire rings in campgrounds and at some, not all, backcountry campsites.</li>
                                 <li>All campfires must be attended at all times and be cold to the touch before abandoning. Soak, stir, feel, and repeat until out cold.</li>
                             </ul>
                         </div>  
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="row pb-1 my-1 border-bottom border-2 ">
+                <div class="col-sm-12 col-md-6 col-lg-3 border-bottom border-2">
+                    <div class="row pb-1 my-1 ">
                         <div class="col-5 col-md-12 d-flex align-items-center">
-                            <img src="static/HorizontalWildfire.jpg" alt="" class="img-fluid d-none d-sm-block">
-                            <img src="static/VerticalWildfire.jpg" alt="" class="img-fluid d-sm-none">
+                            <img src="static/HorizontalBear.jpeg" alt="" class="img-fluid d-none d-sm-block">
+                            <img src="static/VerticalBear.jpg" alt="" class="img-fluid d-sm-none">
                         </div>
                         <div class="col py-0 ps-0 ps-md-3"> Bear Safety:
-                            <ul class="ps-3">
+                            <ul class="ps-3" style="text-align: justify;">
                                 <li>Keep at least 100 yards (93 m) from bears at all times and never approach a bear to take a photo.</li>
                                 <li>Never feed bears. Bears that become dependent on human food may become aggressive toward people and have to be killed.</li>
-                                <br>
                             </ul>
                         </div>  
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="row pb-1 my-1 border-bottom border-2 ">
+                <div class="col-sm-12 col-md-6 col-lg-3 border-bottom border-2">
+                    <div class="row pb-1 my-1 ">
                         <div class="col-5 col-md-12 d-flex align-items-center">
-                            <img src="static/HorizontalWildfire.jpg" alt="" class="img-fluid d-none d-sm-block">
-                            <img src="static/VerticalWildfire.jpg" alt="" class="img-fluid d-sm-none">
+                            <img src="static/HorizontalRoad.jpg" alt="" class="img-fluid d-none d-sm-block">
+                            <img src="static/VerticalRoad.jpeg" alt="" class="img-fluid d-sm-none">
                         </div>
                         <div class="col py-0 ps-0 ps-md-3"> Road Status & Closures:
-                            <p >
+                            <p style="text-align: justify;">
                                 The road between Mammoth Hot Springs and the northeast entrance is the only park road typically open to regular traffic year-round. All other park roads are closed to wheeled vehicles, and open to limited snowmobile and snowcoach travel from mid-December to mid-March
                             </p>
                         </div>  
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="row pb-1 my-1 border-bottom border-2 ">
+                <div class="col-sm-12 col-md-6 col-lg-3 border-bottom border-2">
+                    <div class="row pb-1 my-1 ">
                         <div class="col-5 col-md-12 d-flex align-items-center">
-                            <img src="static/HorizontalWildfire.jpg" alt="" class="img-fluid d-none d-sm-block">
-                            <img src="static/VerticalWildfire.jpg" alt="" class="img-fluid d-sm-none">
+                            <img src="static/HorizontalWeather.jpg" alt="" class="img-fluid d-none d-sm-block">
+                            <img src="static/VerticalWeather.jpg" alt="" class="img-fluid d-sm-none">
                         </div>
                         <div class="col py-0 ps-0 ps-md-3"> Weather Conditions:
                             <ul class="ps-3">
@@ -140,7 +138,6 @@
                                 <li>UV Index: 0 of 11</li>
                                 <li>Visibility: 8 mi</li>
                                 <li>Dew Point: 38°</li>
-                                <br>
                             </ul>
                         </div>  
                     </div>
@@ -148,50 +145,181 @@
             </div>
         </div>       
     </section>
+
+    <section class="justify-content-center d-flex">
+        <img src="static/Breaker.jpg" alt="" class="img-fluid">
+    </section>
+
+    <section id="camping">
+        <div class="container-fluid pt-4">
+            <header class="display-4 text-center">Camping</header>
+            <p style="text-align: justify;" class="h5 fw-normal p-2">
+                Yellowstone National Park is the flagship of the National Park Service and a favorite to millions of visitors each year. The park is a major destination for all members of the family. By driving the grand loop road, visitors can view the park from the comfort of their vehicle and also take a rest at one of the many roadside picnic areas. For the active visitor, the park has thousands of miles of trails from dayhikes to backcountry explorations.
+
+            <div class="container-fluid">
+                <table class="table table-bordered table-striped">
+                    <thead class="text-light" style="background-color: #353030!important;" >
+                      <tr>
+                        <th scope="col">Campground</th>
+                        <th scope="col">2023 Dates</th>
+                        <th scope="col">Nightly Fee</th>
+                        <th scope="col">Sites</th>
+                        <th scope="col" class=""><i class="fab fa-accessible-icon d-flex justify-content-center"></i></th>
+                        <th scope="col"><i class="fas fa-toilet d-flex justify-content-center"></i></th>
+                        <th scope="col"><i class="fas fa-shower d-flex justify-content-center"></i></th>
+                        <th scope="col"><i class="fas fa-faucet d-flex justify-content-center"></i></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/bridgebaycg.htm">Bridge Bay</a></th>
+                        <td>5/19 - 9/4</td>
+                        <td>$33 + taxes</td>
+                        <td>432</td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/canyoncg.htm">Canyon</a></th>
+                        <td>5/26 - 9/17</td>
+                        <td>$39 + taxes</td>
+                        <td>273</td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/fishingbridgecg.htm">Fishing Bridge RV Park</a></th>
+                        <td>5/12 - 10/8</td>
+                        <td>$99 + taxes</td>
+                        <td>310</td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/grantcg.htm">Grant Village</a></th>
+                        <td>6/2 - 9/10</td>
+                        <td>$39 + taxes</td>
+                        <td>430</td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center">●</span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/madisoncg.htm">Madison</a></th>
+                        <td>5/5 - 10/15</td>
+                        <td>$33 + taxes</td>
+                        <td>276</td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                        <td><span class="d-flex justify-content-center"></span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container-fluid pt-4">
+            <header class="display-4 text-center">Gallery</header>
+            <div class="row pt-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery1.jpg" alt="" class="img-fluid flex-fill">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery2.jpg" alt="" class="img-fluid flex-fill">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery4.jpg" alt="" class="img-fluid flex-fill">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery7.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery8.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery9.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery10.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery11.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
+                    <img src="static/Gallery12.jpg" alt="" class="img-fluid">
+                </div>    
+            </div>
+        </div>
+    </section>
                 
     <!--Footer-->
     <footer id="contact">
-        <div class="container-fluid bg-light">
-            <div class="d-flex pt-5 pb-3 px-5 container-fluid">
-                <div class="d-flex col-3 justify-content-center align-items-center">
-                    <img class = "img-fluid" src = "static/Chicago_locator_map.png" alt="background image">
+        <div class="container-fluid bg-dark text-light" style="background-color: #353030!important;">
+            <div class="d-flex row pt-3 pb-3 px-5">
+                <div class="d-flex col-12 col-md-3 justify-content-center align-items-center">
+                    <img class = "img-fluid" src = "static/map.jpg" alt="background image" style="max-height: 300px;">
                 </div>
 
-                <div class="col-3 px-3">
-                    <div class="h1">Info</div>
-                    <div class="small py-2">
-                        <span style = "color:orange;" class="bi-geo-alt"></span> 
-                        Chicago, IL 60611 United States
-                    </div>
-                    <div class="small py-2 text-break">
-                        <span style = "color:orange;" class="bi-envelope"></span>
-                        example@example.com
-                    </div>
-                    <div class="small py-2">
-                        <span style = "color:orange;" class="bi-phone"></span>
-                        Call Us: 708-555-4488
-                    </div>
+                <div class="col-12 col-md-4 px-3">
+                    <header class="display-6">Info</header>
+                    <p class="pt-2">
+                        <span class="bi-geo-alt"></span> 
+                        PO Box 168, Yellowstone National Park, WY 82190-0168
+                    </p>
+                    <p class="text-break">
+                        <span class="bi-envelope"></span>
+                        Yellowstone@recreation.gov
+                    </p>
+                    <p>
+                        <span class="bi-tel"></span>
+                        Park Info: (307) 344-7381
+                    </p>
+                    <p>
+                        <span class="bi-tel"></span>
+                        Road Info: (307) 344-2117
+                    </p>
                 </div>
 
-                <div class="col-3 px-3">
-                    <div class="h1">Shows</div>
-                    <div class="small py-2">The Piano Lesson</div>
-                    <div class="small py-2">A Raisin In The Sun</div>
-                    <div class="small py-2">Fame</div>
-                    <div class="small py-2">The Color Purple</div>
+                <div class="col-6 col-md-2 px-3">
+                    <header class="display-6">Tools</header>
+
+                    <p class="pt-2"><a class="text-decoration-none text-light" href="https://www.nps.gov/yell/faqs.htm">FAQ</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/yell/siteindex.htm">Site Index</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/accessibility.htm">Accessibility</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/privacy.htm">Privacy Policy</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/notices.htm">Notices</a></p>
                 </div>
 
-                <div class="col-3 px-3">
-                    <div class="h1">Social</div>
-                    <div class="small py-2">Facebook</div>
-                    <div class="small py-2">Twitter</div>
-                    <div class="small py-2">Youtube</div>
-                    <div class="small py-2">Instagram</div>
-                </div>
 
+                <div class="col-6 col-md-3 px-3">
+                    <header class="display-6">Social</header>
+                    <p class="pt-2"><a href="https://www.facebook.com/nationalparkservice" class="text-decoration-none text-light"><span class="bi-facebook"></span> FACEBOOK</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.youtube.com/nationalparkservice"><span class="bi-twitter"></span> TWITTER</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://twitter.com/natlparkservice"><span class="bi-youtube"></span> YOUTUBE</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.instagram.com/nationalparkservice/"><span class="bi-instagram"></span> INSTAGRAM</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.flickr.com/photos/nationalparkservice"><span class="bi-three-dots"></span> FLICKR</a></p>
+                </div>
             </div>
         </div>
     </footer>
-
 </body>
 </html>
